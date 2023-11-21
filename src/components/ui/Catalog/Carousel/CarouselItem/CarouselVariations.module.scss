@@ -1,0 +1,19 @@
+.variations {
+  @apply grid grid-cols-4 gap-2 mt-5;
+
+  > .button {
+    @apply transition-all duration-200 text-xs font-semibold uppercase px-1 py-0.5 text-center border border-solid border-white bg-transparent text-white rounded h-7 hover:bg-beige;
+
+    &.active {
+      @apply text-dark-green bg-white;
+    }
+  }
+
+  &.medium {
+    > button {
+      @apply text-sm;
+    }
+  }
+}
+
+// 3:41:12

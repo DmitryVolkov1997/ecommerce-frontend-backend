@@ -1,0 +1,7 @@
+.rating {
+  @apply flex items-center gap-4;
+
+  > span {
+    @apply text-base font-bold mr-2;
+  }
+}

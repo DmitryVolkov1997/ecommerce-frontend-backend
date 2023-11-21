@@ -1,0 +1,16 @@
+.checkout {
+  @apply flex justify-between mt-32;
+
+  > .box {
+    @apply max-w-3xl w-full;
+  }
+
+  .title {
+    @apply text-green text-4xl font-black w-full z-10  relative mb-10;
+  }
+
+  .btn {
+    @apply w-full mt-6;
+  }
+}
+

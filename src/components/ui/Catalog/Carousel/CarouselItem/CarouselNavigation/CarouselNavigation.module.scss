@@ -1,0 +1,26 @@
+.navigation {
+	@apply relative;
+
+	&__btn {
+		@apply w-full flex justify-between absolute top-32;
+	}
+
+	> .image {
+		@apply max-w-[320px] w-full -mt-[4.5rem] object-cover;
+	}
+}
+
+.arrow {
+	@apply absolute animate-scaleIn;
+
+	background: none !important;
+	padding: 0 !important;
+}
+
+.arrow-left {
+	@apply left-0;
+}
+
+.arrow-right {
+	@apply right-0;
+}

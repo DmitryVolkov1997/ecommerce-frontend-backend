@@ -1,0 +1,26 @@
+.wrapper-cart {
+	.heading {
+		@apply bg-transparent flex items-center;
+
+		.badge {
+			@apply w-5 h-5 bg-red text-white flex justify-center items-center rounded-full text-sm mr-3;
+		}
+
+		.text {
+			@apply tracking-widest uppercase;
+		}
+	}
+
+	.cart {
+	}
+}
+
+.footer {
+	> div:first-child {
+		@apply text-sm text-beige;
+	}
+
+	> div:last-child {
+		@apply text-xl font-semibold;
+	}
+}

@@ -1,0 +1,16 @@
+.navigation {
+  @apply flex items-center gap-x-12;
+}
+
+.row {
+  @apply flex gap-x-3.5;
+}
+
+.prevDisabled,
+.nextDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+  pointer-events: none;
+}

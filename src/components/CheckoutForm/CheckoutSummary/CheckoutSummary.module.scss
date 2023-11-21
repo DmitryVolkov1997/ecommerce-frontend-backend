@@ -1,0 +1,8 @@
+.summary {
+  @apply z-10;
+
+  > .total {
+    @apply text-center text-dark-green font-extrabold mt-4;
+  }
+}
+

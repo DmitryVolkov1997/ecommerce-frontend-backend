@@ -1,0 +1,39 @@
+.item {
+  @apply rounded-3xl bg-light-gray p-5 pt-0 flex flex-col items-center mb-16 cursor-pointer min-h-[370px];
+
+  .heading {
+    @apply text-xl leading-6 text-beige capitalize mt-3 font-bold flex flex-grow;
+  }
+
+  .description {
+    @apply mt-5 text-beige opacity-90 text-sm;
+  }
+
+  > div {
+    @apply relative;
+  }
+
+  &.active {
+    @apply shadow-2xl shadow-green bg-green min-h-[430px] bg-cover bg-no-repeat relative;
+    background-image: url('../images/bg-pattern.png');
+    background-position: center top -250px;
+
+    &:before {
+      content: '';
+      @apply absolute w-full h-full top-0 left-0 rounded-3xl;
+      background-image: linear-gradient(
+                      0deg,
+                      rgba(#008d64, 1) 39%,
+                      rgba(255, 255, 255, 0.8) 100%
+      );
+    }
+
+    .heading {
+      @apply text-white text-3xl leading-9;
+    }
+  }
+}
+
+.link {
+  @apply text-base text-center mt-6 text-white border-b border-dashed hover:text-black hover:border-black transition-all;
+}

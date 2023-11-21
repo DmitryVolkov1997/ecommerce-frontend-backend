@@ -1,0 +1,15 @@
+.title {
+  @apply text-2xl text-blue font-extrabold mb-5;
+}
+
+.description {
+  @apply text-beige text-xl font-medium mb-12;
+}
+
+.btn {
+  @apply rounded-3xl bg-white mr-5 last:mr-0;
+
+  img {
+    @apply bg-cover;
+  }
+}

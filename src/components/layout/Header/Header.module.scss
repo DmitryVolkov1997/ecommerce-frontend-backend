@@ -1,0 +1,25 @@
+.header {
+	@apply mb-14;
+
+	display: grid;
+	grid-template-areas: 'menu search cart';
+	grid-template-columns: 1fr auto 1fr;
+
+	> .menu {
+		grid-area: menu;
+		@apply relative z-50;
+	}
+
+	> .search {
+		grid-area: search;
+		display: flex;
+		align-items: center;
+	}
+
+	> .cart {
+		grid-area: cart;
+		display: grid;
+		justify-content: flex-end;
+		align-items: center;
+	}
+}

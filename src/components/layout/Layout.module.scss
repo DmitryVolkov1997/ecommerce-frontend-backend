@@ -1,0 +1,11 @@
+.layout {
+	@apply w-full min-h-screen max-w-[1440px] mx-auto;
+
+	> .main {
+		@apply bg-white py-8 px-10;
+	}
+
+	.content {
+		@apply relative;
+	}
+}

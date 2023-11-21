@@ -1,0 +1,19 @@
+.item {
+	@apply mb-8 flex items-center gap-2;
+
+	.name {
+		@apply tracking-widest;
+	}
+
+	.price {
+		@apply text-sm mt-1 text-beige;
+	}
+
+	.img {
+		@apply max-w-[130px] w-full;
+	}
+
+	.variation {
+		@apply text-xs mt-1 text-beige capitalize opacity-70;
+	}
+}
